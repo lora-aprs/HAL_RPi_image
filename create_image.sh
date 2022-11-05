@@ -8,4 +8,4 @@ then
   mv *.img input.img
 fi
 
-docker run --rm --privileged -v $PWD:/CustoPiZer/workspace -e EDITBASE_ARCH=arm64 ghcr.io/octoprint/custopizer:latest
+docker run --rm --privileged -v $PWD:/CustoPiZer/workspace -v $PWD/config.local:/CustoPiZer/config.local ghcr.io/octoprint/custopizer:latest
