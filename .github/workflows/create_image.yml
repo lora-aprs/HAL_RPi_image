@@ -23,6 +23,7 @@ jobs:
       with:
         workspace: "${{ github.workspace }}"
         scripts:  "${{ github.workspace }}/scripts"
+        config: "${{ github.workspace }}/config.local"
     
     - name: "Rename image"
       run: |
