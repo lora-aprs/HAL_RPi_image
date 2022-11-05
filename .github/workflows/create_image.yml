@@ -1,5 +1,8 @@
 name: "Create Image"
 
+on:
+  push:
+
 jobs:
   build:
     name: "Build"
