@@ -6,7 +6,7 @@ export LC_ALL=C
 source /common.sh
 install_cleanup_trap
 
-apt install libevent-dev debhelper libssl-dev libcap-dev libsctp-dev libwww-perl libjson-xs-perl
+apt-get install -y libevent-dev debhelper libssl-dev libcap-dev libsctp-dev libwww-perl libjson-xs-perl
 apt --fix-broken install
 
 wget http://he.fi/aprsc/down/aprsc-latest.tar.gz

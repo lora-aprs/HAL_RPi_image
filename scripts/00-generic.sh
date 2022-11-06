@@ -6,4 +6,4 @@ export LC_ALL=C
 source /common.sh
 install_cleanup_trap
 
-apt install git vim
+apt-get install -y git vim
