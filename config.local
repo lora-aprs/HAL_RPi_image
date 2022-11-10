@@ -3,6 +3,3 @@ EDITBASE_IMAGE_ENLARGEROOT=800
 
 # shrink image to minimum size plus 20MB after customization
 EDITBASE_IMAGE_RESIZEROOT=20
-
-# use for 64bit
-EDITBASE_ARCH=arm64
