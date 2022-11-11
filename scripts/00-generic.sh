@@ -8,4 +8,4 @@ install_cleanup_trap
 
 apt-get install -y zsh git vim pigpio python3-pigpio
 chsh -s /bin/zsh
-systemctl start pigpiod
+systemctl enable pigpiod
