@@ -6,7 +6,7 @@ export LC_ALL=C
 source /common.sh
 install_cleanup_trap
 
-apt-get install -y python3-pip
+apt-get install -y python3-pip python3-dev libffi-dev libssl-dev
 
 pip install -U platformio
 
